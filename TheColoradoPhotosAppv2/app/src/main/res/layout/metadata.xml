@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+     <TextView
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="left|top"
+         android:text="Title"
+         android:textColor="#000"
+         android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left|top"
+        android:text="Link"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Media"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/date_taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Date Taken"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Description"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/published"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Published"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="Author"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/author_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Author Id"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+
+     <TextView
+        android:id="@+id/tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Tags"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
